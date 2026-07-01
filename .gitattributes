@@ -1,0 +1,10 @@
+* text=auto
+*.bat -text
+*.ico binary
+*.py text eol=lf
+
+# Nicht-Nutzdateien nicht in den ZIP-Download (Code -> Download ZIP) packen.
+# README bleibt auf der GitHub-Seite sichtbar; im Download nur Ordner + install.bat.
+.gitattributes export-ignore
+.gitignore export-ignore
+README.md export-ignore
