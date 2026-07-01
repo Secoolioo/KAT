@@ -1,0 +1,10 @@
+* text=auto
+*.bat -text
+*.ico binary
+*.py text eol=lf
+
+# Keep non-payload files out of the ZIP download (Code -> Download ZIP).
+# README still renders on the GitHub page; the download has only the folder + install.bat.
+.gitattributes export-ignore
+.gitignore export-ignore
+README.md export-ignore
